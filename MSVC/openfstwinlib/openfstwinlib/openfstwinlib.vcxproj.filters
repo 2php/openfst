@@ -1,0 +1,1010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\script">
+      <UniqueIdentifier>{735f2a15-973c-4157-bd48-11481d25ae6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions">
+      <UniqueIdentifier>{fa8e2b55-076c-4358-9e7a-4af5045de8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions\compress">
+      <UniqueIdentifier>{e21423b1-ae1a-49b7-8666-6972ad791143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions\far">
+      <UniqueIdentifier>{00fcdbfe-0612-4405-99ce-c0ce29c44fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions\linear">
+      <UniqueIdentifier>{713d8eed-1f03-4a77-a93a-1b677c9c9dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions\mpdt">
+      <UniqueIdentifier>{1d227856-fa47-48f5-811c-a5dadac909ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions\ngram">
+      <UniqueIdentifier>{6a4144a0-f6f3-4105-974d-b83935d91275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions\pdt">
+      <UniqueIdentifier>{6552145a-f282-4ba8-bd77-d4e316ec53b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions\special">
+      <UniqueIdentifier>{80b134bc-30e9-4dd0-9c6b-a982d77cd136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\lib">
+      <UniqueIdentifier>{096e946e-ae52-47e8-a488-8d194521c2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\script">
+      <UniqueIdentifier>{688f2cb4-0f50-4b59-9f8f-54fe2b9e7ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\extensions">
+      <UniqueIdentifier>{cc4e387d-09bf-44bc-8e42-91bb007a5d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\extensions\compact">
+      <UniqueIdentifier>{68ae9e45-895a-4c01-b94d-f5b89c93f8ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\extensions\compress">
+      <UniqueIdentifier>{e7424c6a-bd8c-46ed-a0a4-88ac233208b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\extensions\const">
+      <UniqueIdentifier>{2c16e886-ce7d-45c4-9660-dcd29745377c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\extensions\far">
+      <UniqueIdentifier>{180ac8b1-256b-4d3b-b73c-db965ec4f3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\extensions\linear">
+      <UniqueIdentifier>{8b844be4-39cd-4468-be3a-2226908bbee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\extensions\ngram">
+      <UniqueIdentifier>{710b215f-92bc-48fc-8ff3-27b7ac0347a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\include\fst\accumulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\add-on.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\arc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\arc-arena.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\arcfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\arc-map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\arcsort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\bi-table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\cache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\closure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\compact-fst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\compat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\complement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\compose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\compose-filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\concat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\connect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\const-fst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\determinize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\dfs-visit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\difference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\disambiguate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\edit-fst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\epsnormalize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\equal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\equivalent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\expanded-fst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\expectation-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\factor-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\filter-state.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\flags.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\float-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\fst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\fst-decl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\fstlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\generic-register.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\icu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\intersect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\interval-set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\invert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\isomorphic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\label-reachable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\lexicographic-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\lock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\lookahead-filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\lookahead-matcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\mapped-file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\matcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\matcher-fst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\minimize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\mutable-fst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\pair-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\partition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\power-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\product-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\project.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\properties.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\prune.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\push.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\randequivalent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\randgen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\rational.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\register.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\relabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\replace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\replace-util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\reverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\reweight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\rmepsilon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\rmfinalepsilon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\shortest-distance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\shortest-path.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\signed-log-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\sparse-power-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\sparse-tuple-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\state-map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\state-reachable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\statesort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\state-table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\string-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\symbol-table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\symbol-table-ops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\synchronize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\test-properties.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\topsort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\tuple-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\union.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\union-find.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\union-weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\vector-fst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\verify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\visit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\weight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\arc-class.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\arciterator-class.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\arcsort.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\arg-packs.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\closure.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\compile.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\compile-impl.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\compose.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\concat.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\connect.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\convert.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\decode.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\determinize.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\difference.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\disambiguate.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\draw.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\draw-impl.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\encode.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\encodemapper-class.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\epsnormalize.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\equal.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\equivalent.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\fst-class.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\fstscript.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\fstscript-decl.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\getters.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\info.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\info-impl.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\intersect.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\invert.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\isomorphic.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\map.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\minimize.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\print.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\print-impl.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\project.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\prune.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\push.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\randequivalent.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\randgen.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\register.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\relabel.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\replace.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\reverse.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\reweight.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\rmepsilon.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\script-impl.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\shortest-distance.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\shortest-path.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\stateiterator-class.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\synchronize.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\text-io.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\topsort.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\union.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\verify.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\script\weight-class.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\compress\compress.h">
+      <Filter>头文件\extensions\compress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\compress\compress-script.h">
+      <Filter>头文件\extensions\compress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\compress\elias.h">
+      <Filter>头文件\extensions\compress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\compress\gzfile.h">
+      <Filter>头文件\extensions\compress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\compress\randmod.h">
+      <Filter>头文件\extensions\compress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\compile-strings.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\create.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\equal.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\extract.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\far.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\far-class.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\farlib.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\farscript.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\getters.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\info.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\isomorphic.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\print-strings.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\script-impl.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\stlist.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\far\sttable.h">
+      <Filter>头文件\extensions\far</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\linear\linear-fst.h">
+      <Filter>头文件\extensions\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\linear\linear-fst-data.h">
+      <Filter>头文件\extensions\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\linear\linear-fst-data-builder.h">
+      <Filter>头文件\extensions\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\linear\linearscript.h">
+      <Filter>头文件\extensions\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\linear\loglinear-apply.h">
+      <Filter>头文件\extensions\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\linear\trie.h">
+      <Filter>头文件\extensions\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\mpdt\compose.h">
+      <Filter>头文件\extensions\mpdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\mpdt\expand.h">
+      <Filter>头文件\extensions\mpdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\mpdt\info.h">
+      <Filter>头文件\extensions\mpdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\mpdt\mpdt.h">
+      <Filter>头文件\extensions\mpdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\mpdt\mpdtlib.h">
+      <Filter>头文件\extensions\mpdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\mpdt\mpdtscript.h">
+      <Filter>头文件\extensions\mpdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\mpdt\read_write_utils.h">
+      <Filter>头文件\extensions\mpdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\mpdt\reverse.h">
+      <Filter>头文件\extensions\mpdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\special\phi-fst.h">
+      <Filter>头文件\extensions\special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\special\rho-fst.h">
+      <Filter>头文件\extensions\special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\special\sigma-fst.h">
+      <Filter>头文件\extensions\special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\collection.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\compose.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\expand.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\getters.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\info.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\paren.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\pdt.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\pdtlib.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\pdtscript.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\replace.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\reverse.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\pdt\shortest-path.h">
+      <Filter>头文件\extensions\pdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\ngram\bitmap-index.h">
+      <Filter>头文件\extensions\ngram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\ngram\ngram-fst.h">
+      <Filter>头文件\extensions\ngram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\fst\extensions\ngram\nthbit.h">
+      <Filter>头文件\extensions\ngram</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\lib\compat.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\flags.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\fst.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\mapped-file.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\properties.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\symbol-table.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\symbol-table-ops.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\util.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\weight.cc">
+      <Filter>源文件\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\arciterator-class.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\arcsort.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\closure.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\compile.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\compose.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\concat.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\connect.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\convert.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\decode.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\determinize.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\difference.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\disambiguate.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\draw.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\encode.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\encodemapper-class.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\epsnormalize.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\equal.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\equivalent.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\fst-class.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\getters.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\info.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\intersect.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\invert.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\isomorphic.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\map.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\minimize.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\print.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\project.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\prune.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\push.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\randequivalent.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\randgen.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\relabel.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\replace.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\reverse.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\reweight.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\rmepsilon.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\shortest-distance.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\shortest-path.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\stateiterator-class.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\synchronize.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\text-io.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\topsort.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\union.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\verify.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\script\weight-class.cc">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact8_acceptor-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact8_string-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact8_unweighted_acceptor-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact8_unweighted-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact8_weighted_string-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact16_acceptor-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact16_string-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact16_unweighted_acceptor-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact16_unweighted-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact16_weighted_string-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact64_acceptor-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact64_string-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact64_unweighted_acceptor-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact64_unweighted-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compact\compact64_weighted_string-fst.cc">
+      <Filter>源文件\extensions\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compress\compress-script.cc">
+      <Filter>源文件\extensions\compress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compress\fstcompress.cc">
+      <Filter>源文件\extensions\compress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\compress\fstrandmod.cc">
+      <Filter>源文件\extensions\compress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\const\const8-fst.cc">
+      <Filter>源文件\extensions\const</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\const\const16-fst.cc">
+      <Filter>源文件\extensions\const</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\const\const64-fst.cc">
+      <Filter>源文件\extensions\const</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\far-class.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\farcompilestrings.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\farcreate.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\farequal.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\farextract.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\farinfo.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\farisomorphic.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\farprintstrings.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\farscript.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\getters.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\script-impl.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\stlist.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\strings.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\far\sttable.cc">
+      <Filter>源文件\extensions\far</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\linear\fstlinear.cc">
+      <Filter>源文件\extensions\linear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\linear\fstloglinearapply.cc">
+      <Filter>源文件\extensions\linear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\linear\linear-classifier-fst.cc">
+      <Filter>源文件\extensions\linear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\linear\linearscript.cc">
+      <Filter>源文件\extensions\linear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\linear\linear-tagger-fst.cc">
+      <Filter>源文件\extensions\linear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\ngram\bitmap-index.cc">
+      <Filter>源文件\extensions\ngram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\ngram\ngram-fst.cc">
+      <Filter>源文件\extensions\ngram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\extensions\ngram\nthbit.cc">
+      <Filter>源文件\extensions\ngram</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\script\Makefile.am">
+      <Filter>源文件\script</Filter>
+    </None>
+    <None Include="..\..\..\src\script\Makefile.in">
+      <Filter>源文件\script</Filter>
+    </None>
+  </ItemGroup>
+</Project>

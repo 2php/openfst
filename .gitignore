@@ -1,0 +1,7 @@
+MSVC/Debug/*
+MSVC/Release/*
+MSVC/x64/*
+MSVC/.vs
+MSVC/**/Debug
+MSVC/**/Release
+MSVC/**/x64
